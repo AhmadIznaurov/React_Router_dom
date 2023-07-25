@@ -27,9 +27,21 @@ code {
 }
 
 .nav > ul > li {
+  cursor: pointer;
+}
+
+.nav > ul > li > a {
+  text-decoration: none;
   color: white;
 }
 
+.nav > ul > li > a.active {
+  color: blue;
+}
+
+.nav > ul > li > a:hover {
+  color: red;
+}
 .AboutUs, .Homepage, .Contacts {
   font-size: 30px;
   text-align: center;
