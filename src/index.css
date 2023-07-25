@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav > ul {
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.nav {
+  width: 1000px;
+  padding: 20px;
+  background-color: midnightblue;
+  margin: auto;
+}
+
+.nav > ul > li {
+  color: white;
+}
+
+.AboutUs, .Homepage, .Contacts {
+  font-size: 30px;
+  text-align: center;
+}
