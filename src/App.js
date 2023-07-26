@@ -4,6 +4,7 @@ import {HomePage} from "./pages/HomePage";
 import {AboutUs} from "./pages/AboutUs";
 import {Contacts} from "./pages/Contacts";
 import {Route, Routes} from "react-router-dom";
+import {SinglePost} from "./pages/SinglePost";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
               <Route path='/' element={<HomePage/>}/>
               <Route path='/AboutUs' element={<AboutUs/>}/>
               <Route path='/Contacts' element={  <Contacts/>}/>
+              <Route path='/posts/:id' element={  <SinglePost/>}/>
           </Routes>
       </div>
 
