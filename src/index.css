@@ -20,10 +20,10 @@ code {
 }
 
 .nav {
-  width: 1000px;
+  width: 970px;
   padding: 20px;
   background-color: midnightblue;
-  margin: auto;
+  margin-left: 180px;
 }
 
 .nav > ul > li {
@@ -45,4 +45,39 @@ code {
 .AboutUs, .Homepage, .Contacts {
   font-size: 30px;
   text-align: center;
+}
+
+.Homepage > ul {
+  list-style: none;
+  margin-top: 30px;
+
+}
+.Homepage {
+  margin: auto;
+  width: 1000px;
+}
+
+.Homepage > ul > li {
+  padding: 5px;
+
+}
+
+.Homepage > ul > li:nth-child(odd) {
+  background-color: gray;
+}
+
+.Homepage > ul > li:nth-child(even) {
+  background-color: lemonchiffon;
+}
+
+.link-no-underline {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.SinglePost {
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
 }

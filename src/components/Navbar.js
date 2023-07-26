@@ -20,6 +20,11 @@ export const Navbar = (props) => {
                         Контакты
                     </NavLink>
                 </li>
+                <li className='nav-link'>
+                    <NavLink to='/posts'>
+                        Posts
+                    </NavLink>
+                </li>
             </ul>
         </div>
     );
