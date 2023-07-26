@@ -21,7 +21,7 @@ export const Navbar = (props) => {
                     </NavLink>
                 </li>
                 <li className='nav-link'>
-                    <NavLink to='/posts'>
+                    <NavLink to='/Posts'>
                         Posts
                     </NavLink>
                 </li>
