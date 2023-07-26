@@ -81,3 +81,16 @@ code {
   width: 1000px;
   margin: 0 auto;
 }
+
+.preFn {
+  margin-left: -893px;
+  border-radius: 40px;
+  background-color: darkgray;
+}
+
+.nextFn {
+  font-size: 12px;
+  height: 30px;
+  border-radius: 40px;
+  background-color: darkgray;
+}
